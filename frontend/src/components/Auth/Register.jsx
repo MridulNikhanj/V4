@@ -21,7 +21,7 @@ const Register = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "http://localhost:3000/user/register",
+        "https://v4-hmp4.onrender.com/user/register",
         { name, email, password, phone, role },
         {
           withCredentials: true,

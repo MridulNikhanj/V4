@@ -13,7 +13,7 @@ const Navbar = () => {
   const handleLogout = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:3000/user/logout",
+        "https://v4-hmp4.onrender.com/user/logout",
         {
           withCredentials: true
         }
